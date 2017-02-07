@@ -5,8 +5,8 @@ body {
 }
 
 .centre {
-    text-align: justify;
-}
+    text-align: center;
+} 
 
 .text-big {
     font-size: 500%;
