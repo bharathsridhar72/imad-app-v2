@@ -1,14 +1,8 @@
-console.log('Loaded!');
-var element = document.getElementById('main-text');
-element.innerHTML = 'new value';
-// ,ove the image
-var marginLeft = 0;
-var id = document.getElementById('madi');
-function moveRight(){
-    marginLeft = marginLeft + 10;
-    madi.style.marginLeft = marginLeft + 'px';
-    }
-madi.onclick = function() {
-    var interval = setInterval(moveRight,100);
-    madi.style.marginLeft = '100px';
-};
+var button = document.getElementById('counter');
+button.onclick = function(){
+    //make a  request to the counter endpoint
+    counter = counter + 1
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString()
+    //capture the response
+}
