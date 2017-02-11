@@ -19,3 +19,13 @@ button.onclick = function () {
     request.open('GET','http://bharathsridhar72.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+// submit the name
+var nameInput = document.getElementById('name');
+var name = nameInput.value();
+var submit = document.getElementById('submit_btn');
+submit.onclick = function () {
+    // should make a request to the server
+    
+    // capture the list of name and render it as names
+    
+}
